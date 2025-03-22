@@ -104,13 +104,15 @@ const Dashboard = () => {
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         {/* Line Chart */}
         <div className="bg-white p-4 md:p-6 rounded-xl shadow-lg">
-          <h2 className="text-lg md:text-xl font-semibold mb-4">User Growth</h2>
+          <h2 className="text-lg md:text-xl font-semibold mb-4 text-black">
+            User Growth
+          </h2>
           <Line data={lineChartData} />
         </div>
 
         {/* Bar Chart */}
         <div className="bg-white p-4 md:p-6 rounded-xl shadow-lg">
-          <h2 className="text-lg md:text-xl font-semibold mb-4">
+          <h2 className="text-lg md:text-xl font-semibold mb-4 text-black">
             Active Users Per Day
           </h2>
           <Bar data={barChartData} />
@@ -118,7 +120,7 @@ const Dashboard = () => {
 
         {/* Pie Chart */}
         <div className="bg-white p-4 md:p-6 rounded-xl shadow-lg">
-          <h2 className="text-lg md:text-xl font-semibold mb-4">
+          <h2 className="text-lg md:text-xl font-semibold mb-4 text-black">
             User Roles Distribution
           </h2>
           <Pie data={pieChartData} />
