@@ -59,12 +59,19 @@ const Dashboard = () => {
 
   // Bar Chart - Active Users per Day
   const barChartData = {
+    // Ibutang unsay mga labels sa graph
+    /* label: for title
+      data: data sa mga graph
+      backgroundColor:
+      borderColor:
+      borderWidth:
+     */
     labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     datasets: [
       {
         label: "Active Users",
         data: [300, 400, 500, 700, 800, 650, 900],
-        backgroundColor: "rgba(54, 162, 235, 0.6)",
+        backgroundColor: "rgba(54, 162, 235, 0.9)",
         borderColor: "rgb(54, 162, 235)",
         borderWidth: 1,
       },
