@@ -7,8 +7,8 @@ export default function Home() {
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">Dashboard App</h1>
           <p className="py-6">
-            We are thrilled to have you here. Explore, navigate, and make the
-            most of this seamless experience. Enjoy your journey!
+            We&apos;re thrilled to have you here. Explore, navigate, and make
+            the most of this seamless experience. Enjoy your journey!
           </p>
           <Link href={"/dashboard"} className="btn btn-sm btn-neutral">
             Go to Dashboard
