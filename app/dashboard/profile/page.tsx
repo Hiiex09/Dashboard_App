@@ -65,7 +65,7 @@ const Profile = () => {
           </div>
         ))}
         <div className="mt-6">
-          <fieldset className="border border-gray-300 p-6 rounded-md">
+          <fieldset className="border border-gray-300 p-6 rounded-md text-black">
             <legend className="text-xl font-semibold px-2">
               Account Details
             </legend>
@@ -89,7 +89,7 @@ const Profile = () => {
             </div>
           </fieldset>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-8">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-8 text-black">
           <Link href={"/dashboard"} className="btn btn-sm btn-primary">
             Back to Dashboard
           </Link>
