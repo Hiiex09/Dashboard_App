@@ -34,7 +34,7 @@ const Profile = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-10">
-      <div className="p-10 shadow-lg max-w-4xl w-full rounded-md bg-white">
+      <div className="p-10 shadow-lg max-w-4xl w-full rounded-md bg-white text-black">
         <div className="text-center mb-6">
           <h1 className="text-4xl font-bold">Profile Details</h1>
         </div>
