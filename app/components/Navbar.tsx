@@ -1,5 +1,4 @@
-import Link from "next/link";
-import React from "react";
+import Image from "next/image";
 
 const Sidebar = () => {
   return (
@@ -41,10 +40,7 @@ const Sidebar = () => {
             <div className="dropdown dropdown-end">
               <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                 <div className="w-10 rounded-full">
-                  <img
-                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
-                    alt="User"
-                  />
+                  <Image src="/logo.png" alt="Logo" width={100} height={50} />
                 </div>
               </label>
               <ul
