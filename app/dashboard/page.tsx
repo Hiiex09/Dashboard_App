@@ -95,6 +95,9 @@ const Dashboard = () => {
       <Navbar />
 
       {/* User Stats Cards */}
+      <div className="p-2 mt-2">
+        <h1 className="text-2xl font-semibold">Overview</h1>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
         {users.map((user, index) => (
           <div
@@ -108,6 +111,9 @@ const Dashboard = () => {
       </div>
 
       {/* Charts Section */}
+      <div className="p-2 mt-5">
+        <h1 className="text-2xl font-semibold">Detailed Reports</h1>
+      </div>
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         {/* Line Chart */}
         <div className="bg-white p-4 md:p-6 rounded-xl shadow-lg">

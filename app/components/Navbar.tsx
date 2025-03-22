@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Sidebar = () => {
   return (
@@ -40,7 +41,12 @@ const Sidebar = () => {
             <div className="dropdown dropdown-end">
               <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                 <div className="w-10 rounded-full">
-                  <Image src="/logo.png" alt="Logo" width={100} height={50} />
+                  <Image
+                    src="/Student.png"
+                    alt="Logo"
+                    width={100}
+                    height={50}
+                  />
                 </div>
               </label>
               <ul
@@ -48,10 +54,10 @@ const Sidebar = () => {
                 className="menu dropdown-content mt-3 w-48 rounded-box bg-base-200 p-2 shadow"
               >
                 <li>
-                  <a>View Profile</a>
+                  <Link href={"/dashboard/profile"}>View Profile</Link>
                 </li>
                 <li>
-                  <a>Settings</a>
+                  <Link href={"/dashboard/settings"}>Settings</Link>
                 </li>
               </ul>
             </div>
