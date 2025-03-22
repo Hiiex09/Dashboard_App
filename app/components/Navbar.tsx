@@ -77,10 +77,10 @@ const Sidebar = () => {
             <a>Dashboard</a>
           </li>
           <li>
-            <a>Reports</a>
+            <Link href={"/dashboard/profile"}>View Profile</Link>
           </li>
           <li>
-            <a>Settings</a>
+            <Link href={"/dashboard/settings"}>Settings</Link>
           </li>
         </ul>
       </div>
