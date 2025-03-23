@@ -36,7 +36,7 @@ const Profile = () => {
     <div className="min-h-screen flex items-center justify-center p-10">
       <div className="p-10 shadow-lg max-w-4xl w-full rounded-md bg-white">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-black">Profile Details</h1>
+          <h1 className="text-4xl font-bold ">Profile Details</h1>
         </div>
         {users.map((user, index) => (
           <div
@@ -65,7 +65,7 @@ const Profile = () => {
           </div>
         ))}
         <div className="mt-6">
-          <fieldset className="border border-gray-300 p-6 rounded-md text-black">
+          <fieldset className="border border-gray-300 p-6 rounded-md">
             <legend className="text-xl font-semibold px-2">
               Account Details
             </legend>
@@ -92,7 +92,7 @@ const Profile = () => {
         <div className="text-center m-5">
           <h1 className="text-2xl font-semibold">Quick Settings</h1>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-8 text-black">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-8 ">
           <Link href={"/dashboard"} className="btn btn-sm btn-primary">
             Back to Dashboard
           </Link>

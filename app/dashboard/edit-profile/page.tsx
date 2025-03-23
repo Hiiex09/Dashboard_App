@@ -99,7 +99,7 @@ const EditProfile = () => {
                 </div>
 
                 {/* Account Details Section */}
-                <fieldset className="border border-gray-300 p-6 rounded-lg bg-gray-100">
+                <fieldset className="border  p-6 rounded-lg ">
                   <legend className="text-lg font-semibold text-gray-700 px-2">
                     Account Details
                   </legend>
