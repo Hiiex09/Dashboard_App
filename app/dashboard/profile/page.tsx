@@ -35,13 +35,13 @@ const Profile = () => {
   return (
     <div className="min-h-screen flex items-center justify-center p-10">
       <div className="p-10 shadow-lg max-w-4xl w-full rounded-md bg-white text-black">
-        <div className="text-center mb-6">
+        <div className="text-center mb-8">
           <h1 className="text-4xl font-bold">Profile Details</h1>
         </div>
         {users.map((user, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row items-center md:items-start gap-6"
+            className="flex flex-col md:flex-row items-center md:items-start gap-6 mt-20"
           >
             <div className="relative">
               <Image
@@ -89,19 +89,22 @@ const Profile = () => {
             </div>
           </fieldset>
         </div>
+        <div className="text-center m-5">
+          <h1 className="text-2xl font-semibold">Quick Settings</h1>
+        </div>
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-8 text-black">
           <Link href={"/dashboard"} className="btn btn-sm btn-primary">
             Back to Dashboard
           </Link>
           <Link
             href={"/dashboard/edit-profile"}
-            className="btn btn-sm btn-primary"
+            className="btn btn-sm btn-secondary"
           >
             Edit Profile
           </Link>
           <Link
             href={"/dashboard/notifications"}
-            className="btn btn-sm btn-primary"
+            className="btn btn-sm btn-info"
           >
             Notifications
           </Link>

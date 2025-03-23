@@ -38,6 +38,8 @@ const Sidebar = () => {
           {/* Navbar menu (hidden on mobile) */}
           <div className="hidden flex-none lg:flex items-center gap-6 ml-auto">
             {/* Profile Dropdown */}
+            <Link href={"/dashboard"}>Analytics</Link>
+            <Link href={"/dashboard/users"}>Users</Link>
             <div className="dropdown dropdown-end">
               <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                 <div className="w-10 rounded-full">
@@ -55,9 +57,6 @@ const Sidebar = () => {
               >
                 <li>
                   <Link href={"/dashboard/profile"}>View Profile</Link>
-                </li>
-                <li>
-                  <Link href={"/dashboard/settings"}>Settings</Link>
                 </li>
               </ul>
             </div>
@@ -78,9 +77,6 @@ const Sidebar = () => {
           </li>
           <li>
             <Link href={"/dashboard/profile"}>View Profile</Link>
-          </li>
-          <li>
-            <Link href={"/dashboard/settings"}>Settings</Link>
           </li>
         </ul>
       </div>
