@@ -3,7 +3,7 @@ import Link from "next/link";
 const Notifications = () => {
   return (
     <div className="min-h-screen  p-5">
-      <div className="max-w-5xl p-10 shadow">
+      <div className="max-w-full p-10 shadow">
         <div className="m-2">
           <h1 className="text-2xl font-semibold">Notifications</h1>
         </div>
